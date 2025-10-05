@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'llc.berserkr.guageshowcase'
+    namespace 'llc.berserkr.gaugeshowcase'
     compileSdk 36
 
     defaultConfig {
-        applicationId "llc.berserkr.guageshowcase"
+        applicationId "llc.berserkr.gaugeshowcase"
         minSdk 24
         targetSdk 36
         versionCode 1
@@ -55,5 +55,5 @@ dependencies {
     androidTestImplementation libs.androidx.compose.ui.test.junit4
     debugImplementation libs.androidx.compose.ui.tooling
     debugImplementation libs.androidx.compose.ui.test.manifest
-    implementation project(':guagelibrary')
+    implementation project(':gaugelibrary')
 }

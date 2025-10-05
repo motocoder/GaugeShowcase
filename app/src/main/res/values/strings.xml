@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GuageShowcase</string>
+    <string name="app_name">GaugeShowcase</string>
     <string-array name="gauges_array">
         <item>ArcGauge</item>
         <item>FullGauge</item>

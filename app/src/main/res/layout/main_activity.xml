@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Spinner
-        android:id="@+id/guage_type_spinner"
+        android:id="@+id/gauge_type_spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="50dp"
@@ -21,8 +21,8 @@
         android:id="@+id/static_fragment_container"
         android:layout_width="match_parent"
         android:layout_height="500dp"
-        android:name="llc.berserkr.guageshowcase.fragment.ArcGaugeFragment"
-        android:layout_above="@id/guage_type_spinner"
+        android:name="llc.berserkr.gaugeshowcase.fragment.ArcGaugeFragment"
+        android:layout_above="@id/gauge_type_spinner"
         android:layout_alignParentTop="true"/>
 
 </RelativeLayout>

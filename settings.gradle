@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "GuageShowcase"
+rootProject.name = "GaugeShowcase"
 include ':app'
-include ':guagelibrary'
+include ':gaugelibrary'

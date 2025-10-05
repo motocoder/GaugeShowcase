@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     android:background="#FFC107">
 
-    <com.ekndev.gaugelibrary.RadialGauge
-        android:id="@+id/radial_gauge"
+    <com.ekndev.gaugelibrary.MultiGauge
+        android:id="@+id/multi_gauge"
         android:layout_width="393dp"
         android:layout_height="233dp"
         android:layout_marginStart="8dp"
