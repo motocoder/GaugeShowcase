@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/guage_type_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+
+        android:layout_alignParentBottom="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Static Fragment integration using android:name -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/static_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:name="llc.berserkr.guageshowcase.fragment.ArcGaugeFragment"
+        android:layout_above="@id/guage_type_spinner"
+        android:layout_alignParentTop="true"/>
+
+</RelativeLayout>

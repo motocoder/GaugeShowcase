@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GuageShowcase</string>
+    <string-array name="gauges_array">
+        <item>ArcGauge</item>
+        <item>FullGauge</item>
+        <item>HalfGauge</item>
+        <item>MultiGauge</item>
+        <item>RadialGauge</item>
+    </string-array>
+</resources>
